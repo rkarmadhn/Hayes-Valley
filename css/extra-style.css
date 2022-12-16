@@ -91,11 +91,16 @@ footer {
 @media (max-width: 567px) {
   .hero-image {
     width: 100vw;
+    height: 250px;
   }
 
   .content-1 img {
     width: 323px;
     height: 223px;
+  }
+
+  .content-1 {
+    padding: 3rem 0;
   }
 
   .content-1 .content-text {
@@ -121,7 +126,8 @@ footer {
   .footer-column-2 {
     display: flex;
     justify-content: space-between;
-    padding: 1rem 2rem;
+    align-items: center;
+    padding: 1rem;
   }
 
   .footer-link {
@@ -130,10 +136,14 @@ footer {
   }
 
   .footer-link-2{
-    font-size: 12px;
+    font-size: 10px;
+  }
+  .footer-icon p{
+    margin: 10px 0;
+    font-size: 10px;
   }
 
   .footer-logo img {
-    width: 100px;
+    width: 85px;
   }
 }
